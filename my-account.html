@@ -1,416 +1,75 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Account – Vital Elixir Globalist</title>
-    <meta name="description" content="View your orders, update your details and manage your account with Vital Elixir Globalist." />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="header.css">
-      <script src="currency-utils.js"></script>
-      <script src="header.js" defer></script>
-    <script>
-      tailwind.config = { theme: { extend: { colors: { brand: '#0284c7' } } } };
-    </script>
-    <style>
-      html { scroll-behavior: smooth; }
-    </style>
-    <script src="dev-fix.js"></script>
-  </head>
-
-  <body class="text-gray-800 bg-gray-50">
-    <!-- Header placeholder -->
-    <div id="header-placeholder"></div>
-    <section class="max-w-5xl mx-auto px-4 py-10">
-      <h1 class="text-3xl font-bold mb-6">My Account</h1>
-      <!-- Login overlay shown when user is not authenticated -->
-      <div id="loginOverlay" class="hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-        <div class="bg-white p-6 rounded-xl shadow-lg max-w-sm text-center">
-          <h2 class="text-xl font-bold mb-4">Please log in to view your account</h2>
-          <p class="text-sm text-gray-600 mb-6">You must be signed in to see your orders and profile.</p>
-          <button id="loginRedirect" class="px-6 py-3 bg-brand text-white rounded-lg hover:bg-blue-700">Login</button>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Account — FORME</title>
+  <meta name="description" content="Explore the FORME account preview, update your local profile, and find your order history.">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/account.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- ==================== SHARED HEADER START ==================== -->
+  <div id="site-header"></div>
+  <!-- ==================== SHARED HEADER END ==================== -->
+  <main id="main-content" class="container account-page">
+    <!-- ==================== ACCOUNT INTRODUCTION START ==================== -->
+    <div class="account-intro">
+      <p class="eyebrow">YOUR PERSONAL EDIT</p>
+      <h1>A little more<br><em>you.</em></h1>
+      <p>A space for your details and the pieces that make your everyday.</p>
+      <a href="product.html" class="account-text-link">Discover the collection <span aria-hidden="true">↗</span></a>
+    </div>
+    <!-- ==================== ACCOUNT INTRODUCTION END ==================== -->
+    <!-- ==================== ACCOUNT FORMS START ==================== -->
+    <section class="account-panel" aria-label="Your account">
+      <p class="notice">Frontend demo. No secure authentication or real accounts are connected. Only your demo profile is saved in this browser; passwords are never saved or verified. Use sample details.</p>
+      <div id="account-feedback" class="account-feedback" role="status" aria-live="polite"></div>
+      <div id="account-auth">
+        <div class="account-tabs" role="tablist" aria-label="Account options">
+          <button type="button" id="login-tab" role="tab" aria-selected="true" aria-controls="login-panel" data-account-tab="login">Login</button>
+          <button type="button" id="register-tab" role="tab" aria-selected="false" aria-controls="register-panel" tabindex="-1" data-account-tab="register">Create account</button>
+        </div>
+        <div id="login-panel" role="tabpanel" aria-labelledby="login-tab">
+          <h2>Welcome back.</h2>
+          <p class="account-muted">Try the account experience with any sample email.</p>
+          <form id="login-form" class="account-form">
+            <label class="field">Email address<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="150"></label>
+            <label class="field">Demo password<input name="password" type="password" autocomplete="off" placeholder="For this preview only" required minlength="8" maxlength="128" aria-describedby="login-password-help"></label>
+            <small id="login-password-help">Enter any 8+ characters. This demo does not check credentials.</small>
+            <button class="button" type="submit">Open demo profile <span aria-hidden="true">↗</span></button>
+          </form>
+        </div>
+        <div id="register-panel" role="tabpanel" aria-labelledby="register-tab" hidden>
+          <h2>Make yourself at home.</h2>
+          <p class="account-muted">Create a profile preview on this device.</p>
+          <form id="register-form" class="account-form">
+            <label class="field">Full name<input name="name" autocomplete="name" placeholder="Your name" required minlength="2" maxlength="80"></label>
+            <label class="field">Email address<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="150"></label>
+            <label class="field">Demo password<input name="password" type="password" autocomplete="off" placeholder="At least 8 characters" required minlength="8" maxlength="128"></label>
+            <small>Use a sample password. It is discarded immediately and never stored.</small>
+            <button class="button" type="submit">Create local demo profile <span aria-hidden="true">↗</span></button>
+          </form>
         </div>
       </div>
-      <!-- Account content shown after login -->
-      <div id="accountContent" class="hidden">
-        <div class="bg-white p-6 rounded-xl shadow mb-8">
-          <h2 class="text-2xl font-semibold mb-4">Profile</h2>
-          <p class="mb-2">
-    <strong>Name:</strong>
-    <span id="profileName"></span>
-  </p>
-
-  <p class="mb-2">
-  <strong>Email:</strong>
-  <span id="profileEmail"></span>
-</p>
-
-<p class="mb-2">
-  <strong>Phone:</strong>
-  <span id="profilePhone"></span>
-</p>
-
-<p class="mb-2">
-  <strong>Country:</strong>
-    <span id="profileCountry"></span>
-  </p>
-
-  <p class="mb-2">
-    <strong>Contact Channel:</strong>
-    <span id="profileLocation"></span>
-  </p>
-
-  <p class="mb-2">
-    <strong>Customer Type:</strong>
-    <span id="profileCustomerType"></span>
-  </p>
-
-  <p class="mb-2">
-    <strong>WhatsApp:</strong>
-    <span id="profileWhatsapp"></span>
-  </p>
-
-  <p class="mb-2">
-    <strong>VIP Status:</strong>
-  <span id="profileVip"></span>
-  </p>
-
-  <div class="mt-4 border-t pt-4">
-
-    <h3 class="font-bold text-lg mb-2">
-      Team Notes
-    </h3>
-
-    <p
-      id="profileNotes"
-      class="text-gray-700"
-    ></p>
-
-  </div>
-          <button id="logoutBtn" class="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">Sign Out</button>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow">
-          <h2 class="text-2xl font-semibold mb-4">Order History</h2>
-          <div id="ordersList" class="space-y-4 text-sm"></div>
-        </div>
+      <div id="account-profile" hidden>
+        <div class="account-profile-heading"><div><p class="eyebrow">LOCAL DEMO PROFILE</p><h2 id="profile-greeting">Your profile</h2></div><button type="button" class="account-text-link" id="sign-out">Sign out</button></div>
+        <form id="profile-form" class="account-form">
+          <label class="field">Full name<input name="name" autocomplete="name" required minlength="2" maxlength="80"></label>
+          <label class="field">Email address<input name="email" type="email" autocomplete="email" required maxlength="150"></label>
+          <label class="field">Phone <span class="account-muted">(optional)</span><input name="phone" type="tel" autocomplete="tel" maxlength="30"></label>
+          <button class="button" type="submit">Save local profile</button>
+        </form>
+        <section class="account-order-history" aria-labelledby="orders-heading"><h3 id="orders-heading">Order history</h3><p>Your order history will appear here once a real account and order service are connected.</p><a class="button button-secondary" href="product.html">Explore the collection</a></section>
+        <button class="account-text-link account-delete" id="clear-profile" type="button">Delete this local demo profile</button>
       </div>
     </section>
-    <script>
-      // Load header and mobile menu functionality
-      async function loadHeader() {
-        const header = await fetch('header.html');
-
-        document.getElementById('header-placeholder').innerHTML =
-            await header.text();
-
-        if(window.initHeader){
-            window.initHeader();
-        }
-
-        if(window.initCurrencySelect){
-            window.initCurrencySelect();
-        }
-        const closeBtn = document.getElementById('close-menu');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const sidebar = document.getElementById('sidebar');
-        if (menuBtn && sidebar && mobileMenu) {
-          menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.remove('hidden');
-            setTimeout(() => sidebar.classList.remove('translate-x-full'), 10);
-          });
-          closeBtn.addEventListener('click', () => {
-            sidebar.classList.add('translate-x-full');
-            setTimeout(() => mobileMenu.classList.add('hidden'), 300);
-          });
-          mobileMenu.addEventListener('click', (e) => {
-            if (e.target === mobileMenu) {
-              sidebar.classList.add('translate-x-full');
-              setTimeout(() => mobileMenu.classList.add('hidden'), 300);
-            }
-          });
-        }
-      }
-      loadHeader();
-    </script>
-    <script type="module">
-      import {
-    auth,
-    db
-  }
-  from './firebase-config.js';
-  console.log("Imported DB:", db);
-
-  import {
-    onAuthStateChanged,
-    signOut
-  }
-  from 'https://www.gstatic.com/firebasejs/12.7.0/firebase-auth.js';
-
-  import {
-  doc,
-  getDoc,
-  collection,
-  getDocs,
-  getFirestore
-}
-from 'https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js';
-
-      if (!db) {
-
-  console.error(
-    "Firestore DB missing"
-  );
-
-}
-
-      const loginOverlay = document.getElementById('loginOverlay');
-      const accountContent = document.getElementById('accountContent');
-      const loginRedirectBtn = document.getElementById('loginRedirect');
-      const logoutBtn = document.getElementById('logoutBtn');
-      const profileNameEl =
-    document.getElementById(
-      'profileName'
-    );
-
-  const profileEmailEl =
-    document.getElementById(
-      'profileEmail'
-    );
-
-  const profilePhoneEl =
-    document.getElementById(
-    'profilePhone'
-    );
-  const profileCountryEl =
-    document.getElementById(
-      'profileCountry'
-    );
-
-  const profileLocationEl =
-    document.getElementById(
-      'profileLocation'
-    );
-
-  const profileCustomerTypeEl =
-    document.getElementById(
-      'profileCustomerType'
-    );
-
-  const profileWhatsappEl =
-    document.getElementById(
-      'profileWhatsapp'
-    );
-
-  const profileVipEl =
-    document.getElementById(
-      'profileVip'
-    );
-
-  const profileNotesEl =
-    document.getElementById(
-      'profileNotes'
-    );
-
-  const ordersList =
-    document.getElementById(
-      'ordersList'
-    );
-
-      loginRedirectBtn.addEventListener('click', () => {
-        window.location.href = 'login.html?redirect=my-account.html';
-      });
-      if (logoutBtn) {
-        logoutBtn.addEventListener('click', async () => {
-          try {
-            await signOut(auth);
-            localStorage.removeItem('userEmail');
-            window.location.href = 'index.html';
-          } catch (err) {
-            console.error('Error signing out', err);
-          }
-        });
-      }
-
-      onAuthStateChanged(auth, async (user) => {
-
-  if (!user) {
-
-    loginOverlay.classList.remove(
-      'hidden'
-    );
-
-    accountContent.classList.add(
-      'hidden'
-    );
-
-    return;
-  }
-
-  console.log(
-    "Logged in UID:",
-    user.uid
-  );
-          
-        // User logged in
-        loginOverlay.classList.add('hidden');
-        accountContent.classList.remove('hidden');
-        profileEmailEl.textContent = user.email;
-        try {
-          const userDoc = await getDoc(doc(db, 'users', user.uid));
-          console.log(
-          "Firestore document exists:",
-          userDoc.exists()
-          );
-          if (userDoc.exists()) {
-
-    const data =
-      userDoc.data();
-    console.log(
-    "Firestore data:",
-    data
-  );
-    profileEmailEl.textContent =
-    user.email || 'Not Added';
-    
-    console.log(
-    "Customer data loaded:",
-    data
-  );
-
-    profileNameEl.textContent =
-      data.name || '';
-    
-    profilePhoneEl.textContent =
-      data.phone || 'Not Added';
-    
-    profileCountryEl.textContent =
-      data.country || 'Not Added';
-    
-    profileLocationEl.textContent =
-    data.contactchannel || 'Not Added';
-
-    profileCustomerTypeEl.textContent =
-    data.customerType || 'Standard';
-
-    profileWhatsappEl.textContent =
-      data.whatsapp || 'Not Added';
-
-    profileVipEl.textContent =
-      data.vip === 'Yes'
-        ? 'VIP Customer'
-        : 'Standard Customer';
-
-    profileNotesEl.textContent =
-      data.adminNotes || 'No notes yet';
-  
-  // Load orders
-       ordersList.innerHTML = `
-
-  <div class="border p-4 rounded-lg shadow-sm">
-
-    <div class="space-y-3">
-
-      <div class="grid grid-cols-2 gap-4">
-
-        <div class="font-semibold">
-          Order Status :
-        </div>
-
-        <div>
-          ${data.orderStatus || 'Pending'}
-        </div>
-
-        <div class="font-semibold">
-          Tracking ID :
-        </div>
-
-        <div>
-          ${data.trackingId || 'Not Assigned'}
-        </div>
-
-        <div class="font-semibold">
-          Courier :
-        </div>
-
-        <div>
-          ${data.courier || 'Pending'}
-        </div>
-
-        <div class="font-semibold">
-          Order Details :
-        </div>
-
-        <div>
-          ${data.orderDetails || 'Pending Confirmation'}
-        </div>
-
-        <div class="font-semibold">
-          Ordered Date :
-        </div>
-
-        <div>
-          ${data.orderedDate || 'N/A'}
-        </div>
-
-        <div class="font-semibold">
-          Ordered Amount :
-        </div>
-
-        <div>
-          ${data.orderedAmount || 'N/A'}
-        </div>
-
-        <div class="font-semibold">
-          Invoice No :
-        </div>
-
-        <div>
-          ${data.invoiceNo || 'Pending'}
-        </div>
-
-        <div class="font-semibold">
-          Tracking Link :
-        </div>
-
-        <div>
-
-          ${
-            data.trackingLink
-              ? `<a
-                  href="${data.trackingLink}"
-                  target="_blank"
-                  class="text-blue-600 underline"
-                >
-                  Track Shipment
-                </a>`
-              : 'Pending'
-          }
-
-        </div>
-
-        <div class="font-semibold">
-          CRM Staff Allocated :
-        </div>
-
-        <div>
-          ${data.crmStaff || 'Not Assigned'}
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-`;
-
-      }
-        } catch (err) {
-          console.error('Failed to fetch user profile', err);
-        }
-        
-             
-      });
-    </script>
-  </body>
-  </html>
+    <!-- ==================== ACCOUNT FORMS END ==================== -->
+  </main>
+  <div id="site-footer"></div>
+  <script type="module" src="js/header.js"></script>
+  <script type="module" src="js/account.js"></script>
+</body>
+</html>

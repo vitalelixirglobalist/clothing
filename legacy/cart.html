@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart – Vital Elixir Globalist</title>
+  <meta name="description" content="Review your selected medicines and proceed to checkout." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="header.css">
+  <script src="currency-utils.js"></script>
+  <script src="pricing-engine.js"></script>
+  <script src="header.js" defer></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#0284c7',
+            medical: '#0f766e',
+            slate: '#0f172a'
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(15, 23, 42, 0.08)'
+          }
+        }
+      }
+    };
+  </script>
+  <!-- VS Code Live Server DEV FIX (GitHub Safe) -->
+<script>
+(function () {
+  if (
+    location.hostname === "localhost" ||
+    location.hostname === "127.0.0.1"
+  ) {
+    const style = document.createElement("style");
+    style.innerHTML = `
+      /* Force sane scaling ONLY in VS Code Live Server */
+      html, body {
+        zoom: 100% !important;
+        font-size: 16px !important;
+      }
+
+      svg {
+        max-width: 100% !important;
+        max-height: 100% !important;
+      }
+
+      .floating-action-bar,
+      .fab-stack,
+      .fab-icon {
+        transform: none !important;
+        scale: 1 !important;
+      }
+    `;
+    document.head.appendChild(style);
+    console.log("✔ VS Code DEV FIX active");
+  }
+})();
+</script>
+  <style>
+    /* === FORCE RESET FAB ICONS (PAGE-SAFE FIX) === */
+body .fab-stack,
+body .popup-fab-stack {
+  transform: none !important;
+  scale: 1 !important;
+  zoom: 1 !important;
+}
+
+body .fab-icon {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+body .fab-icon svg,
+body .fab-icon img {
+  width: 22px !important;
+  height: 22px !important;
+}
+    html { scroll-behavior: smooth; }
+  </style>
+  <script src="dev-fix.js"></script>
+</head>
+
+<body class="text-slate-900 bg-slate-50">
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+
+  <section class="w-full max-w-[1400px] mx-auto px-4 py-10">
+    <div class="flex flex-col gap-2 mb-6">
+      <h1 class="text-3xl font-bold">
+  Your Selected Medications
+</h1>
+
+<p class="text-sm text-slate-600">
+  Review your selected medications and submit your international medication request.
+</p>
+    </div>
+
+    <!-- Login Prompt Overlay -->
+    <div id="loginOverlay"
+      class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div class="bg-white p-6 rounded-xl shadow-lg max-w-sm text-center">
+        <h2 class="text-xl font-bold mb-4">Please log in to view your cart</h2>
+        <p class="text-sm text-slate-600 mb-6">You must be signed in to access your cart and proceed to
+          checkout.</p>
+        <button id="loginRedirect"
+          class="px-6 py-3 bg-brand text-white rounded-lg hover:bg-blue-700">Login</button>
+      </div>
+    </div>
+
+    <div id="cartContainer" class="grid gap-6 grid-cols-1">
+      <div class="space-y-6">
+        <div class="bg-white rounded-2xl shadow-soft border border-slate-100">
+          <div class="flex flex-wrap items-center justify-between gap-3 px-6 py-4 border-b border-slate-100">
+            <div>
+              <h2 class="text-lg font-semibold">Cart Overview</h2>
+              <p class="text-xs text-slate-500">All prices are shown per unit with itemized totals.</p>
+            </div>
+            <a href="products.html"
+              class="inline-flex items-center gap-2 text-sm font-medium text-brand hover:text-blue-700">
+              Back to Products
+            </a>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 px-6 py-4">
+
+          <!-- LEFT SIDE CART -->
+          <div class="lg:col-span-2">
+
+            <div class="hidden md:grid grid-cols-12 text-xs uppercase tracking-wide text-slate-500 border-b border-slate-100 pb-3">
+              <div class="col-span-5">Product</div>
+              <div class="col-span-3">Quantity</div>
+              <div class="col-span-4 text-right">Pricing</div>
+            </div>
+
+            <div id="cartItems" class="divide-y divide-slate-100"></div>
+
+          </div>
+
+          <!-- RIGHT SIDE SUMMARY -->
+          <div>
+
+            <div
+              id="cartSummary"
+              class="bg-slate-50 rounded-2xl border border-slate-200 p-5 lg:sticky lg:top-24">
+            </div>
+
+          </div>
+
+        </div>
+          </div>
+        <!-- CUSTOM MEDICATION REQUEST SECTION -->
+<div class="bg-white rounded-2xl shadow-soft border border-slate-200 p-6">
+
+    <h2 class="text-2xl font-bold mb-2">
+      Proceed to Checkout
+    </h2>
+
+  <p class="text-sm text-slate-600 mb-6">
+  Your selected medicines are ready. Continue to checkout to provide your delivery details and complete your order with assistance from our medication support team.
+</p>
+
+  <!-- TWO COLUMN REQUEST LAYOUT -->
+<div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+
+  <!-- LEFT MAIN CARD -->
+  <div class="lg:col-span-4">
+
+    <div class="bg-blue-50 border border-blue-200 rounded-2xl p-6 h-full">
+
+      <!-- TITLE -->
+      <h3 class="text-2xl font-bold text-blue-900 mb-4">
+        Proceed to Checkout
+      </h3>
+
+      <!-- DESCRIPTION -->
+        <p class="text-sm text-slate-700 mb-5 leading-relaxed">
+          Your selected medicines and quantities are ready. Continue to checkout to provide your delivery details and complete your order.
+        </p>
+
+      <!-- BULLETS -->
+        <ul class="list-disc pl-5 text-sm space-y-3 text-slate-700">
+
+        <li>
+          Review your selected medicines and quantities
+        </li>
+
+        <li>
+          Provide your delivery and contact details
+        </li>
+
+        <li>
+          Our team will will provide Stock details and international shipping
+        </li>
+
+        <li>
+          Get dedicated assistance throughout your order
+        </li>
+
+        </ul>
+
+      </ul>
+
+      <!-- LIVE SUPPORT -->
+      <div class="border-t border-blue-200 mt-6 pt-5">
+
+        <p class="text-center text-green-700 font-semibold text-base">
+        🟢 Our international medication support team is available 24/7 for the assistance with your order.
+        </p>
+
+      </div>
+
+      <!-- BUTTON -->
+      <button
+        type="button"
+        id="submitMedicationRequest"
+        class="mt-6 w-full bg-blue-600 text-white py-4 rounded-xl font-semibold text-lg hover:bg-blue-700 transition">
+
+        Proceed to Checkout
+
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- RIGHT DOCTOR CONSULT CARD -->
+  <div class="lg:col-span-1">
+
+    <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm h-full flex flex-col justify-between">
+
+      <div>
+
+        <h3 class="text-lg font-bold mb-3 text-slate-900 leading-snug">
+          Want to Connect With Our Team Before Checkout??
+        </h3>
+
+        <ul class="space-y-3 text-sm text-slate-600 leading-relaxed">
+
+          <li>
+          • Discuss your order before checkout
+          </li>
+
+          <li>
+          • Get answers about medicines, shipping and availability
+          </li>
+
+          <li>
+          • Receive assistance from our medication support team
+          </li>
+
+          </ul>
+
+      </div>
+
+      <button
+    type="button"
+    onclick="openCheckoutContactPopup(this)"
+    class="w-full bg-brand text-white rounded-lg py-3 text-sm font-semibold hover:bg-blue-700">
+
+    Connect With Our Team
+
+  </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Razorpay script -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  <script>
+    // Load header and mobile menu
+    async function loadHeader() {
+      const header = await fetch('header.html');
+
+      document.getElementById('header-placeholder').innerHTML =
+          await header.text();
+
+      if(window.initHeader){
+          window.initHeader();
+      }
+
+      if(window.initCurrencySelect){
+          window.initCurrencySelect();
+      }
+      const menuBtn = document.getElementById('menu-btn');
+      const closeBtn = document.getElementById('close-menu');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const sidebar = document.getElementById('sidebar');
+      if (menuBtn && sidebar && mobileMenu) {
+        menuBtn.addEventListener('click', () => {
+          mobileMenu.classList.remove('hidden');
+          setTimeout(() => sidebar.classList.remove('translate-x-full'), 10);
+        });
+        closeBtn.addEventListener('click', () => {
+          sidebar.classList.add('translate-x-full');
+          setTimeout(() => mobileMenu.classList.add('hidden'), 300);
+        });
+        mobileMenu.addEventListener('click', (e) => {
+          if (e.target === mobileMenu) {
+            sidebar.classList.add('translate-x-full');
+            setTimeout(() => mobileMenu.classList.add('hidden'), 300);
+          }
+        });
+      }
+    }
+    loadHeader();
+  </script>
+
+  <script type="module">
+    import { auth, db } from './firebase-config.js';
+    import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/12.7.0/firebase-auth.js';
+    import { collection, addDoc, getDocs, deleteDoc, doc, setDoc, getDoc } from 'https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js';
+    const getSelectedCurrency = () => window.pricingEngine.getDisplayedCurrency();
+
+    const formatForeignCurrency = (value) =>
+      window.pricingEngine.formatLocalAmount(value, {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+
+    // All cart/request pricing flows through pricing-engine.js.
+    const calculateCartPricing = (cart) =>
+      window.pricingEngine.calculateCartPricing(cart, { discountRate });
+
+    const getQuantity = (item) => Number(item.quantity || item.qty || item.count || 1);
+
+    const getPackCount = (item) => {
+      if (!item.pack) return null;
+      const match = String(item.pack).match(/(\d+)\s*(tablet|capsule|tab|cap)/i);
+      return match ? Number(match[1]) : null;
+    };
+
+    const getStrength = (item) => {
+      const strengthMatch = String(item.pack || '').match(/(\d+\s?mg|\d+\s?mcg|\d+\s?ml)/i);
+      return item.strength || item.dosage || (strengthMatch ? strengthMatch[1] : 'Standard strength');
+    };
+
+    // Elements
+    const loginOverlay = document.getElementById('loginOverlay');
+    const loginRedirect = document.getElementById('loginRedirect');
+    const cartItemsDiv = document.getElementById('cartItems');
+    const cartSummaryDiv = document.getElementById('cartSummary');
+    const cartSummaryMobileDiv = document.getElementById('cartSummaryMobile');  
+    const payButton = document.getElementById('payButton');
+    const applyCouponBtn = document.getElementById('applyCoupon');
+    const couponMessage = document.getElementById('couponMessage');
+    const reminderMessage = document.getElementById('reminderMessage');
+    const reminderBtn = document.getElementById('setReminder');
+    const submitMedicationRequestBtn = document.getElementById('submitMedicationRequest');
+
+    let currentUser = null;
+    let hasSyncedLocalCart = false;
+    let discountRate = 0;
+
+    onAuthStateChanged(auth, async (user) => {
+
+        currentUser = user;
+
+        if (!user) {
+
+          loginOverlay.classList.remove('hidden');
+
+          await renderCart();
+
+        } else {
+
+          loginOverlay.classList.add('hidden');
+
+          document
+            .getElementById('cartContainer')
+            .classList.remove('hidden');
+
+          document
+            .getElementById('customerEmail')
+            .value = user.email;
+
+          try {
+
+            const userDoc = await getDoc(
+              doc(db, 'users', user.uid)
+            );
+
+            if (userDoc.exists()) {
+
+              const userData = userDoc.data();
+
+              console.log(
+                'Customer profile loaded:',
+                userData
+              );
+
+              document
+                .getElementById('customerName')
+                .value =
+                userData.name || '';
+
+              document
+                .getElementById('customerPhone')
+                .value =
+                userData.phone || '';
+
+            }
+
+          } catch (error) {
+
+            console.error(
+              'Failed loading customer profile:',
+              error
+            );
+
+          }
+
+          await syncLocalCartOnce(user.uid);
+
+          await renderCart();
+
+        }
+
+      });
+
+    loginRedirect.addEventListener('click', () => {
+      window.location.href = 'login.html?redirect=cart.html';
+    });
+
+    const getLocalCart = () => JSON.parse(localStorage.getItem('cart')) || [];
+
+    const getProductId = (item) => {
+      if (item.productId) return String(item.productId);
+      if (item.id && typeof item.id === 'string') return item.id;
+      const base = `${item.name || 'item'}-${item.brand || 'brand'}-${item.pack || 'pack'}`;
+      return base
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)/g, '');
+    };
+
+    const normalizeFirestoreItem = async (uid, docSnap) => {
+      const data = docSnap.data();
+      const productId = getProductId({ ...data, id: docSnap.id });
+      if (docSnap.id !== productId) {
+        const targetRef = doc(db, 'users', uid, 'cart', productId);
+        const existing = await getDoc(targetRef);
+        if (!existing.exists()) {
+          await setDoc(targetRef, { ...data, id: productId }, { merge: true });
+        }
+        await deleteDoc(doc(db, 'users', uid, 'cart', docSnap.id));
+      }
+      return { id: productId, ...data };
+    };
+
+    const fetchFirestoreCart = async (uid) => {
+      const snapshot = await getDocs(collection(db, 'users', uid, 'cart'));
+      const items = [];
+      for (const docSnap of snapshot.docs) {
+        items.push(await normalizeFirestoreItem(uid, docSnap));
+      }
+      return items;
+    };
+
+    const syncLocalCartOnce = async (uid) => {
+      if (hasSyncedLocalCart) return;
+      const sessionKey = `cartSynced:${uid}`;
+      if (sessionStorage.getItem(sessionKey)) {
+        hasSyncedLocalCart = true;
+        return;
+      }
+      const localCart = getLocalCart();
+      if (localCart.length === 0) {
+        sessionStorage.setItem(sessionKey, 'true');
+        hasSyncedLocalCart = true;
+        return;
+      }
+      const existingDocs = await getDocs(collection(db, 'users', uid, 'cart'));
+      const existingIds = new Set(existingDocs.docs.map((docSnap) => docSnap.id));
+      for (const item of localCart) {
+        const productId = getProductId(item);
+        if (existingIds.has(productId)) {
+          continue;
+        }
+        const normalized = window.pricingEngine.normalizeCartItem(item);
+        await setDoc(doc(db, 'users', uid, 'cart', productId), { ...normalized, id: productId }, { merge: true });
+      }
+      localStorage.removeItem('cart');
+      sessionStorage.setItem(sessionKey, 'true');
+      hasSyncedLocalCart = true;
+    };
+
+    const updateCartItemQuantity = async (item, index, nextQty) => {
+      if (!currentUser) {
+        const localCart = getLocalCart();
+        if (index >= 0 && index < localCart.length) {
+          localCart[index] = window.pricingEngine.normalizeCartItem(
+            { ...localCart[index], quantity: nextQty },
+            nextQty
+          );
+          localStorage.setItem('cart', JSON.stringify(localCart));
+        }
+        return;
+      }
+      const productId = getProductId(item);
+      const normalized = window.pricingEngine.normalizeCartItem(
+        { ...item, quantity: nextQty },
+        nextQty
+      );
+      await setDoc(doc(db, 'users', currentUser.uid, 'cart', productId), normalized, { merge: true });
+    };
+
+    async function renderCart() {
+      cartItemsDiv.innerHTML = '';
+      cartSummaryDiv.innerHTML = '';
+      let cartItems = [];
+      if (currentUser) {
+        cartItems = await fetchFirestoreCart(currentUser.uid);
+      } else {
+        cartItems = getLocalCart();
+      }
+
+      if (cartItems.length === 0) {
+        cartItemsDiv.innerHTML = '<div class="py-10 text-center text-slate-500">Your cart is empty.</div>';
+        cartSummaryDiv.innerHTML = '<p class="text-sm text-slate-500">No items to summarize.</p>';
+        return;
+      }
+
+      const cartPricing = calculateCartPricing(cartItems);
+      const pricedCartItems = cartPricing.items;
+
+      pricedCartItems.forEach((item, index) => {
+        const quantity = item.pricing.quantity;
+        const packCount = getPackCount(item);
+        const strength = getStrength(item);
+        const pricing = item.pricing;
+
+        const tabletDisplay = packCount ? `${packCount * quantity} tablets` : `${quantity} units`;
+
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'grid gap-4 py-6 md:grid-cols-12 items-center';
+        itemDiv.innerHTML = `
+          <div class="md:col-span-5 flex gap-4 items-start">
+            <img src="${item.image}" alt="${item.name}" class="w-20 h-20 object-contain rounded-lg border border-slate-100 bg-white" />
+            <div class="space-y-1">
+              <h3 class="font-semibold text-sm">${item.name}</h3>
+              <p class="text-xs text-slate-500">Strength: ${strength}</p>
+              <p class="text-xs text-slate-500">Pack: ${item.pack || 'Standard pack'}</p>
+              <div class="flex flex-wrap gap-2 mt-3 text-xs">
+                <button class="text-red-500 hover:text-red-600 removeItemBtn" data-index="${index}">Remove</button>
+                <button class="text-slate-500 hover:text-slate-700 saveLaterBtn" data-index="${index}">Save for later</button>
+                <button class="text-slate-500 hover:text-slate-700 checkoutLaterBtn" data-index="${index}">Checkout later</button>
+              </div>
+            </div>
+          </div>
+          <div class="md:col-span-3">
+            <div class="flex items-center gap-2">
+              <button class="qtyBtn w-8 h-8 rounded-full border border-slate-200 hover:border-slate-400" data-index="${index}" data-direction="-">−</button>
+              <div class="text-sm font-semibold px-3">${quantity}</div>
+              <button class="qtyBtn w-8 h-8 rounded-full border border-slate-200 hover:border-slate-400" data-index="${index}" data-direction="+">+</button>
+            </div>
+            <p class="text-xs text-slate-500 mt-1">${tabletDisplay}</p>
+          </div>
+          <div class="md:col-span-4 text-sm text-right space-y-1">
+            <p class="text-slate-500">Price per unit: ${formatForeignCurrency(pricing.final_price_usd)} | INR ${pricing.final_price_inr.toFixed(2)}</p>
+            <p class="text-slate-500">Subtotal: ${formatForeignCurrency(pricing.final_medication_total_usd)} | INR ${pricing.final_medication_total_inr.toFixed(2)}</p>
+            <p class="font-semibold text-brand">Item total: ${formatForeignCurrency(pricing.final_medication_total_usd)} | INR ${pricing.final_medication_total_inr.toFixed(2)}</p>
+          </div>
+        `;
+        cartItemsDiv.appendChild(itemDiv);
+      });
+
+   cartSummaryDiv.innerHTML = `
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold">
+  Medication Request Summary
+</h3>
+
+<p class="text-xs text-slate-500">
+  Review your selected medications before submitting your request.
+</p>
+  </div>
+
+  <div class="space-y-3">
+          <div class="flex items-center justify-between text-sm">
+            <span class="text-slate-600">Medication total</span>
+            <span class="font-medium">${formatForeignCurrency(cartPricing.medicationTotalUSD)} | INR ${cartPricing.medicationTotalINR.toFixed(2)}</span>
+          </div>
+          <div class="flex items-center justify-between text-sm">
+            <span class="text-slate-600">Shipping charges</span>
+            <span class="font-medium">${formatForeignCurrency(cartPricing.shippingUSD)} | INR ${cartPricing.shippingINR.toFixed(2)}</span>
+          </div>
+          <div class="flex items-center justify-between text-sm">
+            <span class="text-slate-600">Tax</span>
+            <span class="font-medium">${formatForeignCurrency(cartPricing.taxUSD)} | INR ${cartPricing.taxINR.toFixed(2)}</span>
+          </div>
+          <div class="flex items-center justify-between text-sm">
+            <span class="text-slate-600">Discount</span>
+            <span class="font-medium">- ${formatForeignCurrency(cartPricing.discountUSD)} | INR ${cartPricing.discountINR.toFixed(2)}</span>
+          </div>
+          <div class="border-t border-slate-200 pt-3 flex items-center justify-between">
+            <span class="text-base font-semibold"> Estimated Request Total </span>
+            <span class="text-lg font-bold text-brand">${formatForeignCurrency(cartPricing.grandTotalUSD)} | INR ${cartPricing.grandTotalINR.toFixed(2)}</span>
+          </div>
+          <p class="text-xs text-slate-500"> Final pricing and shipping options may vary based on destination country, availability, and international delivery requirements. </p>
+        </div>
+      `;
+
+      if (cartSummaryMobileDiv) {
+      cartSummaryMobileDiv.innerHTML = cartSummaryDiv.innerHTML;
+          }
+      document.querySelectorAll('.removeItemBtn').forEach((btn) => {
+        btn.addEventListener('click', async (e) => {
+          const idx = parseInt(e.target.getAttribute('data-index'));
+          const toRemove = cartItems[idx];
+          if (!toRemove) return;
+          if (!currentUser) {
+            const localCart = getLocalCart();
+            localCart.splice(idx, 1);
+            localStorage.setItem('cart', JSON.stringify(localCart));
+          } else {
+            await deleteDoc(doc(db, 'users', currentUser.uid, 'cart', getProductId(toRemove)));
+          }
+          renderCart();
+        });
+      });
+
+      document.querySelectorAll('.qtyBtn').forEach((btn) => {
+        btn.addEventListener('click', async (e) => {
+          const idx = parseInt(e.currentTarget.getAttribute('data-index'));
+          const direction = e.currentTarget.getAttribute('data-direction');
+          const currentItem = cartItems[idx];
+          const currentQty = Math.max(1, getQuantity(currentItem));
+          const nextQty = direction === '+' ? currentQty + 1 : Math.max(1, currentQty - 1);
+          await updateCartItemQuantity(currentItem, idx, nextQty);
+          renderCart();
+        });
+      });
+
+      document.querySelectorAll('.saveLaterBtn, .checkoutLaterBtn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          reminderMessage.textContent = 'Saved. You can return to complete checkout anytime.';
+          setTimeout(() => {
+            reminderMessage.textContent = '';
+          }, 3000);
+        });
+      });
+    }
+
+    document.addEventListener('currency:change', () => {
+      renderCart();
+    });
+
+    if (applyCouponBtn) {
+
+  applyCouponBtn.addEventListener('click', () => {
+
+    const loyaltyCode =
+      document.getElementById('loyaltyCode')?.value?.trim() || '';
+
+    const promoCode =
+      document.getElementById('promoCode')?.value?.trim() || '';
+
+    if (!loyaltyCode && !promoCode) {
+
+      discountRate = 0;
+
+      if (couponMessage) {
+
+        couponMessage.textContent =
+          'Enter a loyalty or promotional coupon to apply.';
+
+      }
+
+      renderCart();
+
+      return;
+
+    }
+
+    discountRate = 0.05;
+
+    if (couponMessage) {
+
+      couponMessage.textContent =
+        'Coupon applied successfully. Discount reflected in totals.';
+
+    }
+
+    renderCart();
+
+  });
+
+}
+
+    if (reminderBtn) {
+
+  if (reminderBtn) {
+
+  reminderBtn.addEventListener('click', () => {
+
+    if (reminderMessage) {
+
+      reminderMessage.textContent =
+        'We will keep your cart ready. You can resume checkout later.';
+
+    }
+
+    setTimeout(() => {
+
+      if (reminderMessage) {
+
+        reminderMessage.textContent = '';
+
+      }
+
+    }, 4000);
+
+  });
+
+
+  }
+  }
+
+    /* =========================================
+SUBMIT MEDICATION REQUEST
+========================================= */
+
+submitMedicationRequestBtn.addEventListener('click', async () => {
+
+  try {
+
+    let cart = [];
+
+    if (currentUser) {
+
+      cart = await fetchFirestoreCart(currentUser.uid);
+
+    } else {
+
+      cart = getLocalCart();
+
+    }
+
+    if (cart.length === 0) {
+
+      alert('Your medication request list is empty.');
+
+      return;
+
+    }
+
+    /* =========================================
+    CUSTOMER DETAILS
+    ========================================= */
+
+    const customerData = {
+
+      name:
+        document.getElementById('customerName')?.value || '',
+
+      email:
+        document.getElementById('customerEmail')?.value || '',
+
+      phone:
+        document.getElementById('customerPhone')?.value || '',
+
+      country:
+        document.getElementById('customerCountry')?.value || '',
+
+      address:
+        document.getElementById('customerAddress')?.value || ''
+
+    };
+
+    /* =========================================
+    PRICING SNAPSHOT
+    ========================================= */
+
+const cartPricing = calculateCartPricing(cart);
+
+const processedCart = cartPricing.items.map((item) => ({
+  ...item,
+  quantity: item.pricing.quantity,
+  raw: item.raw,
+  pricing: item.pricing,
+  final_price_usd: item.pricing.final_price_usd,
+  final_price_inr: item.pricing.final_price_inr,
+  final_total_usd: item.pricing.final_total_usd,
+  final_total_inr: item.pricing.final_total_inr,
+  final_price_local: item.pricing.final_price_local,
+  final_total_local: item.pricing.final_total_local,
+  selected_currency: item.pricing.selected_currency
+}));
+
+const pricingSummary = {
+  medicationTotalUSD: cartPricing.medicationTotalUSD,
+  medicationTotalINR: cartPricing.medicationTotalINR,
+  shippingUSD: cartPricing.shippingUSD,
+  shippingINR: cartPricing.shippingINR,
+  grandTotalUSD: cartPricing.grandTotalUSD,
+  grandTotalINR: cartPricing.grandTotalINR,
+  medicationTotalLocal: cartPricing.medicationTotalLocal,
+  shippingLocal: cartPricing.shippingLocal,
+  grandTotalLocal: cartPricing.grandTotalLocal,
+  taxUSD: cartPricing.taxUSD,
+  taxINR: cartPricing.taxINR,
+  taxLocal: cartPricing.taxLocal,
+  discountUSD: cartPricing.discountUSD,
+  discountINR: cartPricing.discountINR,
+  discountLocal: cartPricing.discountLocal,
+  currency: cartPricing.currency
+};
+
+    /* =========================================
+    SAVE TO FIRESTORE
+    ========================================= */
+
+    await addDoc(
+
+      collection(db, "medication_requests"),
+
+      {
+
+        customer: customerData,
+
+        items: processedCart,
+
+        pricingSummary,
+
+        totals: pricingSummary,
+
+        status: "new-request",
+
+        requestDate: new Date().toISOString(),
+
+        userId: currentUser?.uid || null
+
+      }
+
+    );
+
+    /* =========================================
+    REDIRECT PAGE
+    ========================================= */
+
+    window.location.href =
+      "checkout-with-team.html";
+
+  } catch (error) {
+
+    console.error(error);
+
+    alert(
+      "Failed to submit medication request."
+    );
+
+  }
+
+});
+    // Payment integration
+    payButton.addEventListener('click', async () => {
+      if (!currentUser) {
+        loginOverlay.classList.remove('hidden');
+        return;
+      }
+      const cart = await fetchFirestoreCart(currentUser.uid);
+      if (cart.length === 0) {
+        alert('Your medication request list is empty. Please add medications before continuing.');
+        return;
+      }
+      const name = document.getElementById('customerName').value.trim();
+      const email = document.getElementById('customerEmail').value.trim();
+      const phone = document.getElementById('customerPhone').value.trim();
+      const country = document.getElementById('customerCountry').value.trim();
+      const address = document.getElementById('customerAddress').value.trim();
+      if (!name || !email) {
+        alert('Please provide your name and email.');
+        return;
+      }
+      const cartPricing = calculateCartPricing(cart);
+      const totalINR = cartPricing.grandTotalINR;
+      const amountPaise = Math.round(totalINR * 100);
+      const options = {
+        key: 'RAZORPAY_KEY_ID',
+        amount: amountPaise,
+        currency: 'INR',
+        name: 'Vital Elixir Globalist',
+        description: 'Medication Assistance Request',
+        handler: async function (response) {
+          const orderData = {
+            items: cartPricing.items,
+            pricingSummary: {
+              medicationTotalUSD: cartPricing.medicationTotalUSD,
+              medicationTotalINR: cartPricing.medicationTotalINR,
+              shippingUSD: cartPricing.shippingUSD,
+              shippingINR: cartPricing.shippingINR,
+              grandTotalUSD: cartPricing.grandTotalUSD,
+              grandTotalINR: cartPricing.grandTotalINR,
+              medicationTotalLocal: cartPricing.medicationTotalLocal,
+              shippingLocal: cartPricing.shippingLocal,
+              grandTotalLocal: cartPricing.grandTotalLocal,
+              taxUSD: cartPricing.taxUSD,
+              taxINR: cartPricing.taxINR,
+              taxLocal: cartPricing.taxLocal,
+              discountUSD: cartPricing.discountUSD,
+              discountINR: cartPricing.discountINR,
+              discountLocal: cartPricing.discountLocal,
+              currency: cartPricing.currency
+            },
+            date: new Date().toISOString(),
+            status: 'success',
+            orderId: response.razorpay_payment_id,
+            trackingId: '',
+            customer: {
+              name: name,
+              email: email,
+              phone: phone,
+              country: country,
+              address: address
+            }
+          };
+          try {
+            // SAVE INSIDE USER ACCOUNT
+await addDoc(
+  collection(
+    db,
+    'users',
+    currentUser.uid,
+    'orders'
+  ),
+  orderData
+);
+
+// SAVE INSIDE GLOBAL ORDERS
+await addDoc(
+  collection(
+    db,
+    'orders'
+  ),
+  {
+
+    ...orderData,
+
+    userId: currentUser.uid,
+
+    customerName: name,
+
+    customerEmail: email,
+
+    trackingId: '',
+
+    courier: '',
+
+    status: 'Pending'
+
+  }
+);
+          } finally {
+            for (const item of cart) {
+              await deleteDoc(doc(db, 'users', currentUser.uid, 'cart', getProductId(item)));
+            }
+          }
+          const mailBody = encodeURIComponent(`New medication request submitted by ${name} (Email: ${email}).\n\nRequested Medications:\n${cart.map(i => i.name + ' - ' + i.pack).join(', ')}\nEstimated Total INR: ${totalINR}\nReference ID: ${response.razorpay_payment_id}`);
+          window.open(`mailto:vitalelixirglobalist@gmail.com?subject=New Order&body=${mailBody}`);
+          window.location.href = 'thankyou.html';
+        },
+        prefill: {
+          name: name,
+          email: email,
+          contact: phone
+        },
+        notes: {
+          address: address,
+          country: country
+        },
+        theme: {
+          color: '#0284c7'
+        }
+      };
+      const rzp = new Razorpay(options);
+            rzp.open();
+    });
+  </script>
+  <script type="module" src="/checkout-contact-context.js"></script>
+  <!-- === SYSTEM CHECKOUT DATA (DO NOT STYLE / DO NOT REMOVE) === -->
+<div id="checkout-system-layer" style="position:absolute; left:-9999px; top:-9999px;">
+  <form id="checkoutForm">
+    <input type="text" id="customerName" />
+    <input type="email" id="customerEmail" />
+    <input type="text" id="customerPhone" />
+    <input type="text" id="customerCountry" />
+    <textarea id="customerAddress"></textarea>
+    <button type="button" id="payButton"></button>
+  </form>
+</div>
+</body>
+</html>
