@@ -13,15 +13,13 @@
     "originalPrice": 1279,
     "sizes": [
       "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
+      "M"
     ],
     "colors": [
       "Ecru",
       "Black",
-      "Olive"
+      "Olive",
+      "dark black"
     ],
     "stock": 12,
     "description": "An easy everyday tee with a soft crew neckline, a relaxed silhouette and a clean finish. Designed to pair with denim or your favourite joggers.",
@@ -46,6 +44,10 @@
       },
       {
         "name": "Olive",
+        "image": "images/tshirt1.jpeg"
+      },
+      {
+        "name": "dark black",
         "image": "images/tshirt1.jpeg"
       }
     ]
@@ -413,9 +415,10 @@
     "stock": 33,
     "description": "An easy everyday tee with a soft crew neckline, a relaxed silhouette and a clean finish. Designed to pair with denim or your favourite joggers.",
     "tags": [
+      "new-arrival",
       "product-image"
     ],
-    "newArrival": false,
+    "newArrival": true,
     "createdAt": "2026-08-21",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
