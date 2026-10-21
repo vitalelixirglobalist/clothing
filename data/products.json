@@ -8,8 +8,8 @@
     "images": [
       "images/tshirt1.jpeg"
     ],
-    "price": 899,
-    "originalPrice": 1199,
+    "price": 1179,
+    "originalPrice": 1279,
     "sizes": [
       "S",
       "M",
@@ -33,7 +33,21 @@
     "createdAt": "2026-09-14",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt1.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt1.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt1.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt2",
@@ -44,8 +58,8 @@
     "images": [
       "images/tshirt2.jpeg"
     ],
-    "price": 999,
-    "originalPrice": 1399,
+    "price": 1179,
+    "originalPrice": 1279,
     "sizes": [
       "S",
       "M",
@@ -69,7 +83,21 @@
     "createdAt": "2026-09-11",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt2.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt2.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt2.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt3",
@@ -80,8 +108,8 @@
     "images": [
       "images/tshirt3.jpeg"
     ],
-    "price": 1099,
-    "originalPrice": 1599,
+    "price": 1179,
+    "originalPrice": 1579,
     "sizes": [
       "S",
       "M",
@@ -105,7 +133,21 @@
     "createdAt": "2026-09-08",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt3.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt3.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt3.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt4",
@@ -116,8 +158,8 @@
     "images": [
       "images/tshirt4.jpeg"
     ],
-    "price": 1199,
-    "originalPrice": null,
+    "price": 1179,
+    "originalPrice": 1579,
     "sizes": [
       "S",
       "M",
@@ -138,7 +180,21 @@
     "createdAt": "2026-09-05",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt4.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt4.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt4.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt5",
@@ -149,8 +205,8 @@
     "images": [
       "images/tshirt5.jpeg"
     ],
-    "price": 1299,
-    "originalPrice": 1699,
+    "price": 1279,
+    "originalPrice": 1679,
     "sizes": [
       "M",
       "L",
@@ -171,7 +227,21 @@
     "createdAt": "2026-09-02",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt5.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt5.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt5.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt6",
@@ -182,8 +252,8 @@
     "images": [
       "images/tshirt6.jpeg"
     ],
-    "price": 899,
-    "originalPrice": 1399,
+    "price": 879,
+    "originalPrice": 1379,
     "sizes": [
       "S",
       "M",
@@ -206,7 +276,21 @@
     "createdAt": "2026-08-30",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt6.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt6.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt6.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt7",
@@ -217,8 +301,8 @@
     "images": [
       "images/tshirt7.jpeg"
     ],
-    "price": 999,
-    "originalPrice": 1299,
+    "price": 799,
+    "originalPrice": 1279,
     "sizes": [
       "S",
       "M",
@@ -240,7 +324,21 @@
     "createdAt": "2026-08-27",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt7.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt7.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt7.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt8",
@@ -251,7 +349,7 @@
     "images": [
       "images/tshirt8.jpeg"
     ],
-    "price": 1099,
+    "price": 1079,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -274,7 +372,21 @@
     "createdAt": "2026-08-24",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt8.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt8.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt8.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt9",
@@ -285,8 +397,8 @@
     "images": [
       "images/tshirt9.jpeg"
     ],
-    "price": 1199,
-    "originalPrice": 1699,
+    "price": 1179,
+    "originalPrice": 1679,
     "sizes": [
       "S",
       "M",
@@ -306,7 +418,21 @@
     "createdAt": "2026-08-21",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt9.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt9.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt9.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt10",
@@ -317,8 +443,8 @@
     "images": [
       "images/tshirt10.jpeg"
     ],
-    "price": 1299,
-    "originalPrice": 1599,
+    "price": 1279,
+    "originalPrice": 1579,
     "sizes": [
       "M",
       "L",
@@ -338,7 +464,21 @@
     "createdAt": "2026-08-18",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt10.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt10.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt10.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt11",
@@ -349,8 +489,8 @@
     "images": [
       "images/tshirt11.jpeg"
     ],
-    "price": 899,
-    "originalPrice": 1299,
+    "price": 879,
+    "originalPrice": 1279,
     "sizes": [
       "S",
       "M",
@@ -372,7 +512,21 @@
     "createdAt": "2026-08-15",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt11.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt11.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt11.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt12",
@@ -383,7 +537,7 @@
     "images": [
       "images/tshirt12.jpeg"
     ],
-    "price": 999,
+    "price": 799,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -406,7 +560,21 @@
     "createdAt": "2026-08-12",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt12.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt12.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt12.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt13",
@@ -417,8 +585,8 @@
     "images": [
       "images/tshirt13.jpeg"
     ],
-    "price": 1099,
-    "originalPrice": 1399,
+    "price": 1079,
+    "originalPrice": 1379,
     "sizes": [
       "S",
       "M",
@@ -438,7 +606,21 @@
     "createdAt": "2026-08-09",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt13.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt13.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt13.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt14",
@@ -449,8 +631,8 @@
     "images": [
       "images/tshirt14.jpeg"
     ],
-    "price": 1199,
-    "originalPrice": 1599,
+    "price": 1179,
+    "originalPrice": 1579,
     "sizes": [
       "S",
       "M",
@@ -468,7 +650,21 @@
     "createdAt": "2026-08-06",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt14.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt14.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt14.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt15",
@@ -479,8 +675,8 @@
     "images": [
       "images/tshirt15.jpeg"
     ],
-    "price": 1299,
-    "originalPrice": 1799,
+    "price": 1279,
+    "originalPrice": 1779,
     "sizes": [
       "M",
       "L",
@@ -498,7 +694,21 @@
     "createdAt": "2026-08-03",
     "material": "100% cotton jersey, 220 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/tshirt15.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt15.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/tshirt15.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt16",
@@ -509,8 +719,8 @@
     "images": [
       "images/tshirt16.jpeg"
     ],
-    "price": 1199,
-    "originalPrice": 1499,
+    "price": 1179,
+    "originalPrice": 1479,
     "sizes": [
       "S",
       "M",
@@ -535,7 +745,21 @@
     "createdAt": "2026-09-13",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt16.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt16.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt16.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt17",
@@ -546,8 +770,8 @@
     "images": [
       "images/tshirt17.jpeg"
     ],
-    "price": 1299,
-    "originalPrice": 1699,
+    "price": 1279,
+    "originalPrice": 1679,
     "sizes": [
       "S",
       "M",
@@ -571,7 +795,21 @@
     "createdAt": "2026-09-10",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt17.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt17.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt17.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt18",
@@ -582,8 +820,8 @@
     "images": [
       "images/tshirt18.jpeg"
     ],
-    "price": 1399,
-    "originalPrice": 1899,
+    "price": 1379,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -607,7 +845,21 @@
     "createdAt": "2026-09-07",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt18.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt18.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt18.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt19",
@@ -618,7 +870,7 @@
     "images": [
       "images/tshirt19.jpeg"
     ],
-    "price": 1499,
+    "price": 1479,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -640,7 +892,21 @@
     "createdAt": "2026-09-04",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt19.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt19.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt19.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt20",
@@ -651,8 +917,8 @@
     "images": [
       "images/tshirt20.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 1999,
+    "price": 1579,
+    "originalPrice": 1799,
     "sizes": [
       "M",
       "L",
@@ -673,7 +939,21 @@
     "createdAt": "2026-09-01",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt20.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt20.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt20.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt21",
@@ -684,8 +964,8 @@
     "images": [
       "images/tshirt21.jpeg"
     ],
-    "price": 1199,
-    "originalPrice": 1699,
+    "price": 1179,
+    "originalPrice": 1679,
     "sizes": [
       "S",
       "M",
@@ -708,7 +988,21 @@
     "createdAt": "2026-08-29",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt21.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt21.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt21.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt22",
@@ -719,8 +1013,8 @@
     "images": [
       "images/tshirt22.jpeg"
     ],
-    "price": 1299,
-    "originalPrice": 1599,
+    "price": 1279,
+    "originalPrice": 1579,
     "sizes": [
       "S",
       "M",
@@ -742,7 +1036,21 @@
     "createdAt": "2026-08-26",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt22.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt22.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt22.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt23",
@@ -753,7 +1061,7 @@
     "images": [
       "images/tshirt23.jpeg"
     ],
-    "price": 1399,
+    "price": 1379,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -776,7 +1084,21 @@
     "createdAt": "2026-08-23",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt23.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt23.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt23.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt24",
@@ -787,8 +1109,8 @@
     "images": [
       "images/tshirt24.jpeg"
     ],
-    "price": 1499,
-    "originalPrice": 1999,
+    "price": 1479,
+    "originalPrice": 1799,
     "sizes": [
       "S",
       "M",
@@ -808,7 +1130,21 @@
     "createdAt": "2026-08-20",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt24.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt24.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt24.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt25",
@@ -819,8 +1155,8 @@
     "images": [
       "images/tshirt25.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 1899,
+    "price": 1579,
+    "originalPrice": 1879,
     "sizes": [
       "M",
       "L",
@@ -840,7 +1176,21 @@
     "createdAt": "2026-08-17",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt25.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt25.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt25.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt26",
@@ -851,8 +1201,8 @@
     "images": [
       "images/tshirt26.jpeg"
     ],
-    "price": 1199,
-    "originalPrice": 1599,
+    "price": 1179,
+    "originalPrice": 1579,
     "sizes": [
       "S",
       "M",
@@ -874,7 +1224,21 @@
     "createdAt": "2026-08-14",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt26.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt26.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt26.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt27",
@@ -885,7 +1249,7 @@
     "images": [
       "images/tshirt27.jpeg"
     ],
-    "price": 1299,
+    "price": 1279,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -908,7 +1272,21 @@
     "createdAt": "2026-08-11",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt27.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt27.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt27.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt28",
@@ -919,8 +1297,8 @@
     "images": [
       "images/tshirt28.jpeg"
     ],
-    "price": 1399,
-    "originalPrice": 1699,
+    "price": 1379,
+    "originalPrice": 1679,
     "sizes": [
       "S",
       "M",
@@ -940,7 +1318,21 @@
     "createdAt": "2026-08-08",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt28.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt28.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt28.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt29",
@@ -951,8 +1343,8 @@
     "images": [
       "images/tshirt29.jpeg"
     ],
-    "price": 1499,
-    "originalPrice": 1899,
+    "price": 1479,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -970,7 +1362,21 @@
     "createdAt": "2026-08-05",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt29.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt29.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt29.jpeg"
+      }
+    ]
   },
   {
     "id": "tshirt30",
@@ -981,8 +1387,8 @@
     "images": [
       "images/tshirt30.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 2099,
+    "price": 1579,
+    "originalPrice": 2079,
     "sizes": [
       "M",
       "L",
@@ -1000,7 +1406,21 @@
     "createdAt": "2026-08-02",
     "material": "100% cotton jersey, 260 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Olive",
+        "image": "images/tshirt30.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/tshirt30.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/tshirt30.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger1",
@@ -1011,8 +1431,8 @@
     "images": [
       "images/jogger1.jpeg"
     ],
-    "price": 1499,
-    "originalPrice": 1799,
+    "price": 1479,
+    "originalPrice": 1779,
     "sizes": [
       "S",
       "M",
@@ -1037,7 +1457,21 @@
     "createdAt": "2026-09-12",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger1.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger1.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger1.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger2",
@@ -1048,8 +1482,8 @@
     "images": [
       "images/jogger2.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 1999,
+    "price": 1579,
+    "originalPrice": 1799,
     "sizes": [
       "S",
       "M",
@@ -1073,7 +1507,21 @@
     "createdAt": "2026-09-09",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger2.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger2.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger2.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger3",
@@ -1084,8 +1532,8 @@
     "images": [
       "images/jogger3.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 2199,
+    "price": 1679,
+    "originalPrice": 2179,
     "sizes": [
       "S",
       "M",
@@ -1109,7 +1557,21 @@
     "createdAt": "2026-09-06",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger3.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger3.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger3.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger4",
@@ -1120,7 +1582,7 @@
     "images": [
       "images/jogger4.jpeg"
     ],
-    "price": 1799,
+    "price": 1779,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -1142,7 +1604,21 @@
     "createdAt": "2026-09-03",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger4.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger4.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger4.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger5",
@@ -1153,8 +1629,8 @@
     "images": [
       "images/jogger5.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2299,
+    "price": 1879,
+    "originalPrice": 2279,
     "sizes": [
       "M",
       "L",
@@ -1175,7 +1651,21 @@
     "createdAt": "2026-08-31",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger5.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger5.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger5.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger6",
@@ -1186,8 +1676,8 @@
     "images": [
       "images/jogger6.jpeg"
     ],
-    "price": 1499,
-    "originalPrice": 1999,
+    "price": 1479,
+    "originalPrice": 1799,
     "sizes": [
       "S",
       "M",
@@ -1210,7 +1700,21 @@
     "createdAt": "2026-08-28",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger6.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger6.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger6.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger7",
@@ -1221,8 +1725,8 @@
     "images": [
       "images/jogger7.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 1899,
+    "price": 1579,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -1244,7 +1748,21 @@
     "createdAt": "2026-08-25",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger7.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger7.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger7.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger8",
@@ -1255,7 +1773,7 @@
     "images": [
       "images/jogger8.jpeg"
     ],
-    "price": 1699,
+    "price": 1679,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -1278,7 +1796,21 @@
     "createdAt": "2026-08-22",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger8.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger8.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger8.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger9",
@@ -1289,8 +1821,8 @@
     "images": [
       "images/jogger9.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2299,
+    "price": 1779,
+    "originalPrice": 2279,
     "sizes": [
       "S",
       "M",
@@ -1310,7 +1842,21 @@
     "createdAt": "2026-08-19",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger9.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger9.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger9.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger10",
@@ -1321,8 +1867,8 @@
     "images": [
       "images/jogger10.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2199,
+    "price": 1879,
+    "originalPrice": 2179,
     "sizes": [
       "M",
       "L",
@@ -1342,7 +1888,21 @@
     "createdAt": "2026-08-16",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger10.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger10.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger10.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger11",
@@ -1353,8 +1913,8 @@
     "images": [
       "images/jogger11.jpeg"
     ],
-    "price": 1499,
-    "originalPrice": 1899,
+    "price": 1479,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -1376,7 +1936,21 @@
     "createdAt": "2026-08-13",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger11.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger11.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger11.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger12",
@@ -1387,7 +1961,7 @@
     "images": [
       "images/jogger12.jpeg"
     ],
-    "price": 1599,
+    "price": 1579,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -1410,7 +1984,21 @@
     "createdAt": "2026-08-10",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger12.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger12.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger12.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger13",
@@ -1421,8 +2009,8 @@
     "images": [
       "images/jogger13.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 1999,
+    "price": 1679,
+    "originalPrice": 1799,
     "sizes": [
       "S",
       "M",
@@ -1442,7 +2030,21 @@
     "createdAt": "2026-08-07",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger13.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger13.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger13.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger14",
@@ -1453,8 +2055,8 @@
     "images": [
       "images/jogger14.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2199,
+    "price": 1779,
+    "originalPrice": 2179,
     "sizes": [
       "S",
       "M",
@@ -1472,7 +2074,21 @@
     "createdAt": "2026-08-04",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger14.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger14.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger14.jpeg"
+      }
+    ]
   },
   {
     "id": "jogger15",
@@ -1483,8 +2099,8 @@
     "images": [
       "images/jogger15.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2399,
+    "price": 1879,
+    "originalPrice": 2379,
     "sizes": [
       "M",
       "L",
@@ -1502,7 +2118,21 @@
     "createdAt": "2026-08-01",
     "material": "80% cotton, 20% polyester French terry",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Charcoal",
+        "image": "images/jogger15.jpeg"
+      },
+      {
+        "name": "Black",
+        "image": "images/jogger15.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/jogger15.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans1",
@@ -1513,8 +2143,8 @@
     "images": [
       "images/jeans1.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2299,
+    "price": 1799,
+    "originalPrice": 2279,
     "sizes": [
       "S",
       "M",
@@ -1537,7 +2167,17 @@
     "createdAt": "2026-09-11",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans1.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans1.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans2",
@@ -1548,8 +2188,8 @@
     "images": [
       "images/jeans2.jpeg"
     ],
-    "price": 2099,
-    "originalPrice": 2499,
+    "price": 2079,
+    "originalPrice": 2479,
     "sizes": [
       "S",
       "M",
@@ -1572,7 +2212,17 @@
     "createdAt": "2026-09-08",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans2.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans2.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans3",
@@ -1583,8 +2233,8 @@
     "images": [
       "images/jeans3.jpeg"
     ],
-    "price": 2199,
-    "originalPrice": 2699,
+    "price": 2179,
+    "originalPrice": 2679,
     "sizes": [
       "S",
       "M",
@@ -1607,7 +2257,17 @@
     "createdAt": "2026-09-05",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans3.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans3.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans4",
@@ -1618,7 +2278,7 @@
     "images": [
       "images/jeans4.jpeg"
     ],
-    "price": 2299,
+    "price": 2279,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -1639,7 +2299,17 @@
     "createdAt": "2026-09-02",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans4.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans4.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans5",
@@ -1650,8 +2320,8 @@
     "images": [
       "images/jeans5.jpeg"
     ],
-    "price": 2399,
-    "originalPrice": 2799,
+    "price": 2379,
+    "originalPrice": 2779,
     "sizes": [
       "M",
       "L",
@@ -1671,7 +2341,17 @@
     "createdAt": "2026-08-30",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans5.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans5.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans6",
@@ -1682,8 +2362,8 @@
     "images": [
       "images/jeans6.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2499,
+    "price": 1799,
+    "originalPrice": 2479,
     "sizes": [
       "S",
       "M",
@@ -1705,7 +2385,17 @@
     "createdAt": "2026-08-27",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans6.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans6.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans7",
@@ -1716,8 +2406,8 @@
     "images": [
       "images/jeans7.jpeg"
     ],
-    "price": 2099,
-    "originalPrice": 2399,
+    "price": 2079,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -1738,7 +2428,17 @@
     "createdAt": "2026-08-24",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans7.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans7.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans8",
@@ -1749,7 +2449,7 @@
     "images": [
       "images/jeans8.jpeg"
     ],
-    "price": 2199,
+    "price": 2179,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -1771,7 +2471,17 @@
     "createdAt": "2026-08-21",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans8.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans8.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans9",
@@ -1782,8 +2492,8 @@
     "images": [
       "images/jeans9.jpeg"
     ],
-    "price": 2299,
-    "originalPrice": 2799,
+    "price": 2279,
+    "originalPrice": 2779,
     "sizes": [
       "S",
       "M",
@@ -1802,7 +2512,17 @@
     "createdAt": "2026-08-18",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans9.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans9.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans10",
@@ -1813,8 +2533,8 @@
     "images": [
       "images/jeans10.jpeg"
     ],
-    "price": 2399,
-    "originalPrice": 2699,
+    "price": 2379,
+    "originalPrice": 2679,
     "sizes": [
       "M",
       "L",
@@ -1833,7 +2553,17 @@
     "createdAt": "2026-08-15",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans10.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans10.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans11",
@@ -1844,8 +2574,8 @@
     "images": [
       "images/jeans11.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2399,
+    "price": 1799,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -1866,7 +2596,17 @@
     "createdAt": "2026-08-12",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans11.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans11.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans12",
@@ -1877,7 +2617,7 @@
     "images": [
       "images/jeans12.jpeg"
     ],
-    "price": 2099,
+    "price": 2079,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -1899,7 +2639,17 @@
     "createdAt": "2026-08-09",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans12.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans12.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans13",
@@ -1910,8 +2660,8 @@
     "images": [
       "images/jeans13.jpeg"
     ],
-    "price": 2199,
-    "originalPrice": 2499,
+    "price": 2179,
+    "originalPrice": 2479,
     "sizes": [
       "S",
       "M",
@@ -1930,7 +2680,17 @@
     "createdAt": "2026-08-06",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans13.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans13.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans14",
@@ -1941,8 +2701,8 @@
     "images": [
       "images/jeans14.jpeg"
     ],
-    "price": 2299,
-    "originalPrice": 2699,
+    "price": 2279,
+    "originalPrice": 2679,
     "sizes": [
       "S",
       "M",
@@ -1959,7 +2719,17 @@
     "createdAt": "2026-08-03",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans14.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans14.jpeg"
+      }
+    ]
   },
   {
     "id": "jeans15",
@@ -1970,8 +2740,8 @@
     "images": [
       "images/jeans15.jpeg"
     ],
-    "price": 2399,
-    "originalPrice": 2899,
+    "price": 2379,
+    "originalPrice": 2879,
     "sizes": [
       "M",
       "L",
@@ -1988,7 +2758,17 @@
     "createdAt": "2026-07-31",
     "material": "99% cotton denim, 1% elastane",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Indigo",
+        "image": "images/jeans15.jpeg"
+      },
+      {
+        "name": "Washed Black",
+        "image": "images/jeans15.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie1",
@@ -1999,8 +2779,8 @@
     "images": [
       "images/hoodie1.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2199,
+    "price": 1879,
+    "originalPrice": 2179,
     "sizes": [
       "S",
       "M",
@@ -2025,7 +2805,21 @@
     "createdAt": "2026-09-10",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie1.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie1.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie1.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie2",
@@ -2036,8 +2830,8 @@
     "images": [
       "images/hoodie2.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2399,
+    "price": 1799,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -2061,7 +2855,21 @@
     "createdAt": "2026-09-07",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie2.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie2.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie2.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie3",
@@ -2072,8 +2880,8 @@
     "images": [
       "images/hoodie3.jpeg"
     ],
-    "price": 2099,
-    "originalPrice": 2599,
+    "price": 2079,
+    "originalPrice": 2579,
     "sizes": [
       "S",
       "M",
@@ -2097,7 +2905,21 @@
     "createdAt": "2026-09-04",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie3.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie3.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie3.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie4",
@@ -2108,7 +2930,7 @@
     "images": [
       "images/hoodie4.jpeg"
     ],
-    "price": 2199,
+    "price": 2179,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -2130,7 +2952,21 @@
     "createdAt": "2026-09-01",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie4.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie4.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie4.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie5",
@@ -2141,8 +2977,8 @@
     "images": [
       "images/hoodie5.jpeg"
     ],
-    "price": 2299,
-    "originalPrice": 2699,
+    "price": 2279,
+    "originalPrice": 2679,
     "sizes": [
       "M",
       "L",
@@ -2163,7 +2999,21 @@
     "createdAt": "2026-08-29",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie5.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie5.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie5.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie6",
@@ -2174,8 +3024,8 @@
     "images": [
       "images/hoodie6.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2399,
+    "price": 1879,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -2198,7 +3048,21 @@
     "createdAt": "2026-08-26",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie6.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie6.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie6.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie7",
@@ -2209,8 +3073,8 @@
     "images": [
       "images/hoodie7.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2299,
+    "price": 1799,
+    "originalPrice": 2279,
     "sizes": [
       "S",
       "M",
@@ -2232,7 +3096,21 @@
     "createdAt": "2026-08-23",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie7.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie7.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie7.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie8",
@@ -2243,7 +3121,7 @@
     "images": [
       "images/hoodie8.jpeg"
     ],
-    "price": 2099,
+    "price": 2079,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -2266,7 +3144,21 @@
     "createdAt": "2026-08-20",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie8.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie8.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie8.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie9",
@@ -2277,8 +3169,8 @@
     "images": [
       "images/hoodie9.jpeg"
     ],
-    "price": 2199,
-    "originalPrice": 2699,
+    "price": 2179,
+    "originalPrice": 2679,
     "sizes": [
       "S",
       "M",
@@ -2298,7 +3190,21 @@
     "createdAt": "2026-08-17",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie9.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie9.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie9.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie10",
@@ -2309,8 +3215,8 @@
     "images": [
       "images/hoodie10.jpeg"
     ],
-    "price": 2299,
-    "originalPrice": 2599,
+    "price": 2279,
+    "originalPrice": 2579,
     "sizes": [
       "M",
       "L",
@@ -2330,7 +3236,21 @@
     "createdAt": "2026-08-14",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie10.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie10.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie10.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie11",
@@ -2341,8 +3261,8 @@
     "images": [
       "images/hoodie11.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2299,
+    "price": 1879,
+    "originalPrice": 2279,
     "sizes": [
       "S",
       "M",
@@ -2364,7 +3284,21 @@
     "createdAt": "2026-08-11",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie11.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie11.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie11.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie12",
@@ -2375,7 +3309,7 @@
     "images": [
       "images/hoodie12.jpeg"
     ],
-    "price": 1999,
+    "price": 1799,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -2398,7 +3332,21 @@
     "createdAt": "2026-08-08",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie12.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie12.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie12.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie13",
@@ -2409,8 +3357,8 @@
     "images": [
       "images/hoodie13.jpeg"
     ],
-    "price": 2099,
-    "originalPrice": 2399,
+    "price": 2079,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -2430,7 +3378,21 @@
     "createdAt": "2026-08-05",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie13.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie13.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie13.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie14",
@@ -2441,8 +3403,8 @@
     "images": [
       "images/hoodie14.jpeg"
     ],
-    "price": 2199,
-    "originalPrice": 2599,
+    "price": 2179,
+    "originalPrice": 2579,
     "sizes": [
       "S",
       "M",
@@ -2460,7 +3422,21 @@
     "createdAt": "2026-08-02",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie14.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie14.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie14.jpeg"
+      }
+    ]
   },
   {
     "id": "hoodie15",
@@ -2471,8 +3447,8 @@
     "images": [
       "images/hoodie15.jpeg"
     ],
-    "price": 2299,
-    "originalPrice": 2799,
+    "price": 2279,
+    "originalPrice": 2779,
     "sizes": [
       "M",
       "L",
@@ -2490,7 +3466,21 @@
     "createdAt": "2026-07-30",
     "material": "80% cotton, 20% polyester brushed fleece, 320 GSM",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Stone",
+        "image": "images/hoodie15.jpeg"
+      },
+      {
+        "name": "Charcoal",
+        "image": "images/hoodie15.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/hoodie15.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket1",
@@ -2501,8 +3491,8 @@
     "images": [
       "images/jacket1.jpeg"
     ],
-    "price": 2999,
-    "originalPrice": 3299,
+    "price": 2799,
+    "originalPrice": 3279,
     "sizes": [
       "S",
       "M",
@@ -2525,7 +3515,17 @@
     "createdAt": "2026-09-09",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket1.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket1.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket2",
@@ -2536,8 +3536,8 @@
     "images": [
       "images/jacket2.jpeg"
     ],
-    "price": 3099,
-    "originalPrice": 3499,
+    "price": 3079,
+    "originalPrice": 3479,
     "sizes": [
       "S",
       "M",
@@ -2560,7 +3560,17 @@
     "createdAt": "2026-09-06",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket2.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket2.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket3",
@@ -2571,8 +3581,8 @@
     "images": [
       "images/jacket3.jpeg"
     ],
-    "price": 3199,
-    "originalPrice": 3699,
+    "price": 3179,
+    "originalPrice": 3679,
     "sizes": [
       "S",
       "M",
@@ -2595,7 +3605,17 @@
     "createdAt": "2026-09-03",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket3.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket3.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket4",
@@ -2606,7 +3626,7 @@
     "images": [
       "images/jacket4.jpeg"
     ],
-    "price": 3299,
+    "price": 3279,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -2627,7 +3647,17 @@
     "createdAt": "2026-08-31",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket4.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket4.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket5",
@@ -2638,8 +3668,8 @@
     "images": [
       "images/jacket5.jpeg"
     ],
-    "price": 3399,
-    "originalPrice": 3799,
+    "price": 3379,
+    "originalPrice": 3779,
     "sizes": [
       "M",
       "L",
@@ -2659,7 +3689,17 @@
     "createdAt": "2026-08-28",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket5.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket5.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket6",
@@ -2670,8 +3710,8 @@
     "images": [
       "images/jacket6.jpeg"
     ],
-    "price": 2999,
-    "originalPrice": 3499,
+    "price": 2799,
+    "originalPrice": 3479,
     "sizes": [
       "S",
       "M",
@@ -2693,7 +3733,17 @@
     "createdAt": "2026-08-25",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket6.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket6.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket7",
@@ -2704,8 +3754,8 @@
     "images": [
       "images/jacket7.jpeg"
     ],
-    "price": 3099,
-    "originalPrice": 3399,
+    "price": 3079,
+    "originalPrice": 3379,
     "sizes": [
       "S",
       "M",
@@ -2726,7 +3776,17 @@
     "createdAt": "2026-08-22",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket7.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket7.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket8",
@@ -2737,7 +3797,7 @@
     "images": [
       "images/jacket8.jpeg"
     ],
-    "price": 3199,
+    "price": 3179,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -2759,7 +3819,17 @@
     "createdAt": "2026-08-19",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket8.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket8.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket9",
@@ -2770,8 +3840,8 @@
     "images": [
       "images/jacket9.jpeg"
     ],
-    "price": 3299,
-    "originalPrice": 3799,
+    "price": 3279,
+    "originalPrice": 3779,
     "sizes": [
       "S",
       "M",
@@ -2790,7 +3860,17 @@
     "createdAt": "2026-08-16",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket9.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket9.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket10",
@@ -2801,8 +3881,8 @@
     "images": [
       "images/jacket10.jpeg"
     ],
-    "price": 3399,
-    "originalPrice": 3699,
+    "price": 3379,
+    "originalPrice": 3679,
     "sizes": [
       "M",
       "L",
@@ -2821,7 +3901,17 @@
     "createdAt": "2026-08-13",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket10.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket10.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket11",
@@ -2832,8 +3922,8 @@
     "images": [
       "images/jacket11.jpeg"
     ],
-    "price": 2999,
-    "originalPrice": 3399,
+    "price": 2799,
+    "originalPrice": 3379,
     "sizes": [
       "S",
       "M",
@@ -2854,7 +3944,17 @@
     "createdAt": "2026-08-10",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket11.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket11.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket12",
@@ -2865,7 +3965,7 @@
     "images": [
       "images/jacket12.jpeg"
     ],
-    "price": 3099,
+    "price": 3079,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -2887,7 +3987,17 @@
     "createdAt": "2026-08-07",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket12.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket12.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket13",
@@ -2898,8 +4008,8 @@
     "images": [
       "images/jacket13.jpeg"
     ],
-    "price": 3199,
-    "originalPrice": 3499,
+    "price": 3179,
+    "originalPrice": 3479,
     "sizes": [
       "S",
       "M",
@@ -2918,7 +4028,17 @@
     "createdAt": "2026-08-04",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket13.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket13.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket14",
@@ -2929,8 +4049,8 @@
     "images": [
       "images/jacket14.jpeg"
     ],
-    "price": 3299,
-    "originalPrice": 3699,
+    "price": 3279,
+    "originalPrice": 3679,
     "sizes": [
       "S",
       "M",
@@ -2947,7 +4067,17 @@
     "createdAt": "2026-08-01",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket14.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket14.jpeg"
+      }
+    ]
   },
   {
     "id": "jacket15",
@@ -2958,8 +4088,8 @@
     "images": [
       "images/jacket15.jpeg"
     ],
-    "price": 3399,
-    "originalPrice": 3899,
+    "price": 3379,
+    "originalPrice": 3879,
     "sizes": [
       "M",
       "L",
@@ -2976,7 +4106,17 @@
     "createdAt": "2026-07-29",
     "material": "100% nylon outer; 100% polyester lining",
     "care": "Cold gentle wash with similar colours. Do not bleach. Air dry. Follow the garment care label.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Black",
+        "image": "images/jacket15.jpeg"
+      },
+      {
+        "name": "Olive",
+        "image": "images/jacket15.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt1",
@@ -2987,8 +4127,8 @@
     "images": [
       "images/shirt1.jpeg"
     ],
-    "price": 1399,
-    "originalPrice": 1699,
+    "price": 1379,
+    "originalPrice": 1679,
     "sizes": [
       "S",
       "M",
@@ -3011,7 +4151,17 @@
     "createdAt": "2026-09-08",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt1.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt1.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt2",
@@ -3022,8 +4172,8 @@
     "images": [
       "images/shirt2.jpeg"
     ],
-    "price": 1499,
-    "originalPrice": 1899,
+    "price": 1479,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -3046,7 +4196,17 @@
     "createdAt": "2026-09-05",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt2.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt2.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt3",
@@ -3057,8 +4217,8 @@
     "images": [
       "images/shirt3.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 2099,
+    "price": 1579,
+    "originalPrice": 2079,
     "sizes": [
       "S",
       "M",
@@ -3081,7 +4241,17 @@
     "createdAt": "2026-09-02",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt3.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt3.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt4",
@@ -3092,7 +4262,7 @@
     "images": [
       "images/shirt4.jpeg"
     ],
-    "price": 1699,
+    "price": 1679,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -3113,7 +4283,17 @@
     "createdAt": "2026-08-30",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt4.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt4.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt5",
@@ -3124,8 +4304,8 @@
     "images": [
       "images/shirt5.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2199,
+    "price": 1779,
+    "originalPrice": 2179,
     "sizes": [
       "M",
       "L",
@@ -3145,7 +4325,17 @@
     "createdAt": "2026-08-27",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt5.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt5.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt6",
@@ -3156,8 +4346,8 @@
     "images": [
       "images/shirt6.jpeg"
     ],
-    "price": 1399,
-    "originalPrice": 1899,
+    "price": 1379,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -3179,7 +4369,17 @@
     "createdAt": "2026-08-24",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt6.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt6.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt7",
@@ -3190,8 +4390,8 @@
     "images": [
       "images/shirt7.jpeg"
     ],
-    "price": 1499,
-    "originalPrice": 1799,
+    "price": 1479,
+    "originalPrice": 1779,
     "sizes": [
       "S",
       "M",
@@ -3212,7 +4412,17 @@
     "createdAt": "2026-08-21",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt7.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt7.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt8",
@@ -3223,7 +4433,7 @@
     "images": [
       "images/shirt8.jpeg"
     ],
-    "price": 1599,
+    "price": 1579,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -3245,7 +4455,17 @@
     "createdAt": "2026-08-18",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt8.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt8.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt9",
@@ -3256,8 +4476,8 @@
     "images": [
       "images/shirt9.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 2199,
+    "price": 1679,
+    "originalPrice": 2179,
     "sizes": [
       "S",
       "M",
@@ -3276,7 +4496,17 @@
     "createdAt": "2026-08-15",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt9.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt9.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt10",
@@ -3287,8 +4517,8 @@
     "images": [
       "images/shirt10.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2099,
+    "price": 1779,
+    "originalPrice": 2079,
     "sizes": [
       "M",
       "L",
@@ -3307,7 +4537,17 @@
     "createdAt": "2026-08-12",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt10.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt10.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt11",
@@ -3318,8 +4558,8 @@
     "images": [
       "images/shirt11.jpeg"
     ],
-    "price": 1399,
-    "originalPrice": 1799,
+    "price": 1379,
+    "originalPrice": 1779,
     "sizes": [
       "S",
       "M",
@@ -3340,7 +4580,17 @@
     "createdAt": "2026-08-09",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt11.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt11.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt12",
@@ -3351,7 +4601,7 @@
     "images": [
       "images/shirt12.jpeg"
     ],
-    "price": 1499,
+    "price": 1479,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -3373,7 +4623,17 @@
     "createdAt": "2026-08-06",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt12.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt12.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt13",
@@ -3384,8 +4644,8 @@
     "images": [
       "images/shirt13.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 1899,
+    "price": 1579,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -3404,7 +4664,17 @@
     "createdAt": "2026-08-03",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt13.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt13.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt14",
@@ -3415,8 +4685,8 @@
     "images": [
       "images/shirt14.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 2099,
+    "price": 1679,
+    "originalPrice": 2079,
     "sizes": [
       "S",
       "M",
@@ -3433,7 +4703,17 @@
     "createdAt": "2026-07-31",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt14.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt14.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt15",
@@ -3444,8 +4724,8 @@
     "images": [
       "images/shirt15.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2299,
+    "price": 1779,
+    "originalPrice": 2279,
     "sizes": [
       "M",
       "L",
@@ -3462,7 +4742,17 @@
     "createdAt": "2026-07-28",
     "material": "100% cotton woven fabric",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru Print",
+        "image": "images/shirt15.jpeg"
+      },
+      {
+        "name": "Black Print",
+        "image": "images/shirt15.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt16",
@@ -3473,8 +4763,8 @@
     "images": [
       "images/shirt16.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 1899,
+    "price": 1579,
+    "originalPrice": 1879,
     "sizes": [
       "S",
       "M",
@@ -3499,7 +4789,21 @@
     "createdAt": "2026-09-07",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt16.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt16.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt16.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt17",
@@ -3510,8 +4814,8 @@
     "images": [
       "images/shirt17.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 2099,
+    "price": 1679,
+    "originalPrice": 2079,
     "sizes": [
       "S",
       "M",
@@ -3535,7 +4839,21 @@
     "createdAt": "2026-09-04",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt17.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt17.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt17.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt18",
@@ -3546,8 +4864,8 @@
     "images": [
       "images/shirt18.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2299,
+    "price": 1779,
+    "originalPrice": 2279,
     "sizes": [
       "S",
       "M",
@@ -3571,7 +4889,21 @@
     "createdAt": "2026-09-01",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt18.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt18.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt18.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt19",
@@ -3582,7 +4914,7 @@
     "images": [
       "images/shirt19.jpeg"
     ],
-    "price": 1899,
+    "price": 1879,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -3604,7 +4936,21 @@
     "createdAt": "2026-08-29",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt19.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt19.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt19.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt20",
@@ -3615,8 +4961,8 @@
     "images": [
       "images/shirt20.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2399,
+    "price": 1799,
+    "originalPrice": 2379,
     "sizes": [
       "M",
       "L",
@@ -3637,7 +4983,21 @@
     "createdAt": "2026-08-26",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt20.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt20.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt20.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt21",
@@ -3648,8 +5008,8 @@
     "images": [
       "images/shirt21.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 2099,
+    "price": 1579,
+    "originalPrice": 2079,
     "sizes": [
       "S",
       "M",
@@ -3672,7 +5032,21 @@
     "createdAt": "2026-08-23",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt21.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt21.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt21.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt22",
@@ -3683,8 +5057,8 @@
     "images": [
       "images/shirt22.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 1999,
+    "price": 1679,
+    "originalPrice": 1799,
     "sizes": [
       "S",
       "M",
@@ -3706,7 +5080,21 @@
     "createdAt": "2026-08-20",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt22.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt22.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt22.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt23",
@@ -3717,7 +5105,7 @@
     "images": [
       "images/shirt23.jpeg"
     ],
-    "price": 1799,
+    "price": 1779,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -3740,7 +5128,21 @@
     "createdAt": "2026-08-17",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt23.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt23.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt23.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt24",
@@ -3751,8 +5153,8 @@
     "images": [
       "images/shirt24.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2399,
+    "price": 1879,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -3772,7 +5174,21 @@
     "createdAt": "2026-08-14",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt24.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt24.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt24.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt25",
@@ -3783,8 +5199,8 @@
     "images": [
       "images/shirt25.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2299,
+    "price": 1799,
+    "originalPrice": 2279,
     "sizes": [
       "M",
       "L",
@@ -3804,7 +5220,21 @@
     "createdAt": "2026-08-11",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt25.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt25.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt25.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt26",
@@ -3815,8 +5245,8 @@
     "images": [
       "images/shirt26.jpeg"
     ],
-    "price": 1599,
-    "originalPrice": 1999,
+    "price": 1579,
+    "originalPrice": 1799,
     "sizes": [
       "S",
       "M",
@@ -3838,7 +5268,21 @@
     "createdAt": "2026-08-08",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt26.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt26.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt26.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt27",
@@ -3849,7 +5293,7 @@
     "images": [
       "images/shirt27.jpeg"
     ],
-    "price": 1699,
+    "price": 1679,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -3872,7 +5316,21 @@
     "createdAt": "2026-08-05",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt27.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt27.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt27.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt28",
@@ -3883,8 +5341,8 @@
     "images": [
       "images/shirt28.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2099,
+    "price": 1779,
+    "originalPrice": 2079,
     "sizes": [
       "S",
       "M",
@@ -3904,7 +5362,21 @@
     "createdAt": "2026-08-02",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt28.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt28.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt28.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt29",
@@ -3915,8 +5387,8 @@
     "images": [
       "images/shirt29.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2299,
+    "price": 1879,
+    "originalPrice": 2279,
     "sizes": [
       "S",
       "M",
@@ -3934,7 +5406,21 @@
     "createdAt": "2026-07-30",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt29.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt29.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt29.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt30",
@@ -3945,8 +5431,8 @@
     "images": [
       "images/shirt30.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2499,
+    "price": 1799,
+    "originalPrice": 2479,
     "sizes": [
       "M",
       "L",
@@ -3964,7 +5450,21 @@
     "createdAt": "2026-07-27",
     "material": "55% linen, 45% cotton",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Ecru",
+        "image": "images/shirt30.jpeg"
+      },
+      {
+        "name": "Stone",
+        "image": "images/shirt30.jpeg"
+      },
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt30.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt31",
@@ -3975,8 +5475,8 @@
     "images": [
       "images/shirt31.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 1999,
+    "price": 1679,
+    "originalPrice": 1799,
     "sizes": [
       "S",
       "M",
@@ -3999,7 +5499,17 @@
     "createdAt": "2026-09-06",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt31.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt31.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt32",
@@ -4010,8 +5520,8 @@
     "images": [
       "images/shirt32.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2199,
+    "price": 1779,
+    "originalPrice": 2179,
     "sizes": [
       "S",
       "M",
@@ -4034,7 +5544,17 @@
     "createdAt": "2026-09-03",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt32.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt32.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt33",
@@ -4045,8 +5565,8 @@
     "images": [
       "images/shirt33.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2399,
+    "price": 1879,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -4069,7 +5589,17 @@
     "createdAt": "2026-08-31",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt33.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt33.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt34",
@@ -4080,7 +5610,7 @@
     "images": [
       "images/shirt34.jpeg"
     ],
-    "price": 1999,
+    "price": 1799,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -4101,7 +5631,17 @@
     "createdAt": "2026-08-28",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt34.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt34.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt35",
@@ -4112,8 +5652,8 @@
     "images": [
       "images/shirt35.jpeg"
     ],
-    "price": 2099,
-    "originalPrice": 2499,
+    "price": 2079,
+    "originalPrice": 2479,
     "sizes": [
       "M",
       "L",
@@ -4133,7 +5673,17 @@
     "createdAt": "2026-08-25",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt35.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt35.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt36",
@@ -4144,8 +5694,8 @@
     "images": [
       "images/shirt36.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 2199,
+    "price": 1679,
+    "originalPrice": 2179,
     "sizes": [
       "S",
       "M",
@@ -4167,7 +5717,17 @@
     "createdAt": "2026-08-22",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt36.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt36.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt37",
@@ -4178,8 +5738,8 @@
     "images": [
       "images/shirt37.jpeg"
     ],
-    "price": 1799,
-    "originalPrice": 2099,
+    "price": 1779,
+    "originalPrice": 2079,
     "sizes": [
       "S",
       "M",
@@ -4200,7 +5760,17 @@
     "createdAt": "2026-08-19",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt37.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt37.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt38",
@@ -4211,7 +5781,7 @@
     "images": [
       "images/shirt38.jpeg"
     ],
-    "price": 1899,
+    "price": 1879,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -4233,7 +5803,17 @@
     "createdAt": "2026-08-16",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt38.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt38.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt39",
@@ -4244,8 +5824,8 @@
     "images": [
       "images/shirt39.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2499,
+    "price": 1799,
+    "originalPrice": 2479,
     "sizes": [
       "S",
       "M",
@@ -4264,7 +5844,17 @@
     "createdAt": "2026-08-13",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt39.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt39.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt40",
@@ -4275,8 +5865,8 @@
     "images": [
       "images/shirt40.jpeg"
     ],
-    "price": 2099,
-    "originalPrice": 2399,
+    "price": 2079,
+    "originalPrice": 2379,
     "sizes": [
       "M",
       "L",
@@ -4295,7 +5885,17 @@
     "createdAt": "2026-08-10",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt40.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt40.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt41",
@@ -4306,8 +5906,8 @@
     "images": [
       "images/shirt41.jpeg"
     ],
-    "price": 1699,
-    "originalPrice": 2099,
+    "price": 1679,
+    "originalPrice": 2079,
     "sizes": [
       "S",
       "M",
@@ -4328,7 +5928,17 @@
     "createdAt": "2026-08-07",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt41.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt41.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt42",
@@ -4339,7 +5949,7 @@
     "images": [
       "images/shirt42.jpeg"
     ],
-    "price": 1799,
+    "price": 1779,
     "originalPrice": null,
     "sizes": [
       "S",
@@ -4361,7 +5971,17 @@
     "createdAt": "2026-08-04",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt42.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt42.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt43",
@@ -4372,8 +5992,8 @@
     "images": [
       "images/shirt43.jpeg"
     ],
-    "price": 1899,
-    "originalPrice": 2199,
+    "price": 1879,
+    "originalPrice": 2179,
     "sizes": [
       "S",
       "M",
@@ -4392,7 +6012,17 @@
     "createdAt": "2026-08-01",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt43.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt43.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt44",
@@ -4403,8 +6033,8 @@
     "images": [
       "images/shirt44.jpeg"
     ],
-    "price": 1999,
-    "originalPrice": 2399,
+    "price": 1799,
+    "originalPrice": 2379,
     "sizes": [
       "S",
       "M",
@@ -4421,7 +6051,17 @@
     "createdAt": "2026-07-29",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt44.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt44.jpeg"
+      }
+    ]
   },
   {
     "id": "shirt45",
@@ -4432,8 +6072,8 @@
     "images": [
       "images/shirt45.jpeg"
     ],
-    "price": 2099,
-    "originalPrice": 2599,
+    "price": 2079,
+    "originalPrice": 2579,
     "sizes": [
       "M",
       "L",
@@ -4450,6 +6090,16 @@
     "createdAt": "2026-07-26",
     "material": "100% cotton poplin",
     "care": "Machine wash cold with similar colours. Wash inside out. Do not bleach. Line dry in shade. Cool iron if needed.",
-    "catalogueStatus": "ACTIVE"
+    "catalogueStatus": "ACTIVE",
+    "colorVariants": [
+      {
+        "name": "Sky Blue",
+        "image": "images/shirt45.jpeg"
+      },
+      {
+        "name": "Ecru",
+        "image": "images/shirt45.jpeg"
+      }
+    ]
   }
 ]
