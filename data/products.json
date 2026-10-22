@@ -4,9 +4,9 @@
     "name": "Essential Relaxed Tee",
     "category": "tshirt",
     "subcategory": "relaxed",
-    "image": "images/tshirtabc.jpeg",
+    "image": "images/tshir.jpeg",
     "images": [
-      "images/tshirtabc.jpeg",
+      "images/tshir.jpeg",
       "images/tshirt1.jpeg"
     ],
     "price": 1179,
@@ -36,7 +36,7 @@
     "colorVariants": [
       {
         "name": "Ecru",
-        "image": "images/tshirtabc.jpeg"
+        "image": "images/tshir.jpeg"
       },
       {
         "name": "Black",
@@ -65,10 +65,7 @@
     "originalPrice": 1279,
     "sizes": [
       "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
+      "M"
     ],
     "colors": [
       "Ecru",
